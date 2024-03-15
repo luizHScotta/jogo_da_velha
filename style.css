@@ -1,9 +1,38 @@
 body {
-    font-family: sans-serif;
+    font-family: cursive;
+    background-color: beige;
+    display: grid;
+    justify-content: center;
+    color: brown;
+  }
+
+  h1{
+    font-size: 45px;
+  }
+
+  label{
+    padding: 0.1rem;
+    font-size: 20px;
+  }
+
+  input{
+    padding: 5px 8px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+
+  button{
+    font-family: cursive;
+    border-radius: 10px;
+    border: 0;
+    margin-top: 5px;
+    background-color: brown;
+    color: beige;
   }
   
   #gameBoard {
-    background-color: #232323;
+    background-color: beige;
     display: grid;
     grid-template-columns: 6rem 6rem 6rem;
     grid-template-rows: 6rem 6rem 6rem;
@@ -13,14 +42,14 @@ body {
   }
   
   #gameBoard span {
-    background-color: #ddd;
+    background-color: black;
     display: grid;
     place-content: center;
     font-size: 5rem;
   }
   
   #gameBoard span.win {
-    background-color: #25a340;
+    background-color: #68ff89;
 
   }
   
